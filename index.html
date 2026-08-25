@@ -1,78 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mi primera web</title>
     <style>
-        table, th, td{
-            border: 1px solid black;
-        }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
     </style>
-</head>
-<body>
-    <table style="width: 500px;">
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-            </tr>
-        </thead>
+  </head>
+  <body>
+    <table style="width: 500px">
+      <thead>
         <tr>
-            <th>Hola beats</th>
-            <th>Gratis</th>
-
+          <th>Producto</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Hola beats</th>
+          <th>Gratis</th>
         </tr>
 
         <tr>
-            <td>Hola beats</td>
-            <td>Gratis</td>
+          <td>Hola beats</td>
+          <td>Gratis</td>
         </tr>
 
         <tr>
-            <td>Chanchito feliz</td>
-            <td>19,90$</td>
+          <td>Chanchito feliz</td>
+          <td>19,90$</td>
         </tr>
         <tr>
-            <td>Chanchito feliz muy feliz</td>
-            <td>29,90$</td>
+          <td>Chanchito feliz muy feliz</td>
+          <td>29,90$</td>
         </tr>
+      </tbody>
+      <tfoot>
+        <td></td>
+        <td>Total: 49.80</td>
+      </tfoot>
     </table>
     <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
     </ul>
     <ol>
-        <li value="50">Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-        <li>
-            <ol>
-                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
-                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
-                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
-                <li style="list-style-type: lower-alpha;">sub elemento 4</li>
-            </ol>
-        </li>
+      <li value="50">Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+      <li>
+        <ol>
+          <li style="list-style-type: lower-alpha">sub elemento 1</li>
+          <li style="list-style-type: lower-alpha">sub elemento 2</li>
+          <li style="list-style-type: lower-alpha">sub elemento 3</li>
+          <li style="list-style-type: lower-alpha">sub elemento 4</li>
+        </ol>
+      </li>
     </ol>
     <form action="http://127.0.0.1:5500/index.html" method="POST">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-        <br>
-        <label for="apellido">Apellido</label>
-        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="Apellido">
-        <br>
-        <label for="comentario">Comentario</label>
-        <textarea  cols="50" rows="10" id="comentario" placeholder="ingrese comentario">este es un valor por defecto</textarea>
-        <br>
-        <button type="button"><img src="img/cafecito.jpg" alt=""> Tipo boton</button>
-        <button type="reset">Tipo reset</button>
-        <button type="submit">Tipo botón</button>
-        <button></button>
-
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+      <br />
+      <label for="apellido">Apellido</label>
+      <input
+        value="feliz"
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Apellido"
+      />
+      <br />
+      <label for="comentario">Comentario</label>
+      <textarea
+        cols="50"
+        rows="10"
+        id="comentario"
+        placeholder="ingrese comentario"
+      >
+este es un valor por defecto</textarea
+      >
+      <br />
+      <button type="button">
+        <img src="img/cafecito.jpg" alt="" /> Tipo boton
+      </button>
+      <button type="reset">Tipo reset</button>
+      <button type="submit">Tipo botón</button>
+      <button></button>
     </form>
     <h1>Mi primer heading</h1>
     <h2>Mi segundo heading</h2>
@@ -80,17 +101,18 @@
     <h4>Mi cuarto heading</h4>
     <h5>Mi quinto heading</h5>
     <h6>Chanchito feliz</h6>
-    <p>Chanchito feliz está muy feliz
-        lalala
-    </p>
+    <p>Chanchito feliz está muy feliz lalala</p>
     <p>Chanchito triste está muy triste</p>
-    <hr>
+    <hr />
     <h2>Chanchito felipe</h2>
     <p>Texto un poco más</p>
-    <p>Este texto es <span style="color: aqua;">mucho más largo</span> y es para mostrar <br>
-         la etiqueta de span!</p>
+    <p>
+      Este texto es <span style="color: aqua">mucho más largo</span> y es para
+      mostrar <br />
+      la etiqueta de span!
+    </p>
     <!--este es un comentario y no va a aparecer en el explorador-->
     <a target="_blank" href="https://www.google.com">Ir a google</a>
-    <img src="img/cafecito.jpg" alt="" width="200" >
-</body>
+    <img src="img/cafecito.jpg" alt="" width="200" />
+  </body>
 </html>
